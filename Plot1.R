@@ -24,5 +24,5 @@ hist(housesub$Global_active_power, col = "red", main = "Global Active Power",
      xlab = "Global Active Power (kilowatts)")
 
 ##Save the plot to a png file
-dev.copy(png, "plot1.png")
+dev.copy(png, "plot1.png", height=480, width=480)
 dev.off()
