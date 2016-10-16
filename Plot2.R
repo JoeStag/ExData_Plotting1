@@ -25,5 +25,5 @@ plot(housesub$Date, housesub$Global_active_power, type = "l",
      ylab = "Global Active Power (kilowatts)", xlab = NA)
 
 ##Save the plot to a png file
-dev.copy(png, "plot2.png")
+dev.copy(png, "plot2.png", height=480, width=480)
 dev.off()
