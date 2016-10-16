@@ -32,5 +32,5 @@ legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
        col=c("black","red","blue"),lwd=2)
 
 ##Save the plot to a png file
-dev.copy(png, "plot3.png")
+dev.copy(png, "plot3.png", height=480, width=480)
 dev.off()
