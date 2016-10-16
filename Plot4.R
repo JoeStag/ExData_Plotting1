@@ -38,5 +38,5 @@ legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
 with(housesub, plot(Date, Global_reactive_power, type = "l", xlab = "datetime"))
 
 ##Save the plot to a png file
-dev.copy(png, "plot4.png")
+dev.copy(png, "plot4.png", height=480, width=480)
 dev.off()
